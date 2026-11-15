@@ -27,3 +27,13 @@
 .team-card-copy span{font-size:19px;line-height:1.4;color:var(--muted);margin-top:22px;align-self:flex-start}
 .team-arrow{position:absolute;right:38px;bottom:34px;width:68px;height:68px;border-radius:50%;background:#fff;color:var(--purple);display:grid;place-items:center;font-size:31px;font-style:normal;font-weight:400}
 @media(max-width:800px){.team-grid{grid-template-columns:1fr;gap:28px;margin-top:55px}.team-grid a{border-radius:28px}.team-card-copy{min-height:155px;padding:25px 26px 26px}.team-card-copy strong{font-size:22px}.team-card-copy span{font-size:15px;margin-top:14px}.team-arrow{right:25px;bottom:24px;width:54px;height:54px;font-size:25px}}
+/* Final fidelity pass: stronger team presence, restrained corners, and a fixed-ratio footer mark. */
+.team-section h2{font-size:clamp(80px,8vw,140px);margin-top:72px;margin-bottom:48px}
+.team-grid{gap:4.4vw;margin-top:96px}
+.team-grid a{border-radius:14px}
+.team-card-copy{min-height:220px;padding:38px 42px 36px}
+.team-card-copy strong{font-size:32px}
+.team-card-copy span{font-size:20px;margin-top:24px}
+.team-arrow{right:40px;bottom:36px;width:72px;height:72px;font-size:32px}
+.footer-brand img{width:210px;height:auto!important;aspect-ratio:281 / 144;object-fit:contain;object-position:left center;display:block}
+@media(max-width:800px){.team-section h2{font-size:clamp(58px,16vw,90px);margin-top:42px;margin-bottom:28px}.team-grid{gap:28px;margin-top:58px}.team-grid a{border-radius:10px}.team-card-copy{min-height:165px;padding:28px 28px 28px}.team-card-copy strong{font-size:23px}.team-card-copy span{font-size:16px;margin-top:15px}.team-arrow{right:26px;bottom:25px;width:56px;height:56px;font-size:26px}.footer-brand img{width:190px}}
