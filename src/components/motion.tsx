@@ -1,6 +1,6 @@
 "use client";
 
-import { MotionConfig, motion } from "motion/react";
+import { MotionConfig, motion } from "framer-motion";
 import type { ReactNode } from "react";
 
 export function MotionProvider({ children }: { children: ReactNode }) {
