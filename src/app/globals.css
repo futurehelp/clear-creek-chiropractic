@@ -18,3 +18,12 @@
 @media(max-width:800px){.team-section h2{font-size:clamp(54px,15vw,84px);margin:38px 0 24px}.team-grid{grid-template-columns:1fr;gap:44px;margin-top:55px}.team-grid a{grid-template-columns:145px 1fr;column-gap:20px}.team-grid img{width:145px;height:175px}.team-grid strong{font-size:15px}.team-grid span{font-size:12px}}
 .site-header nav.open{display:flex}
 @media(max-width:800px){.site-header{position:relative}.site-header nav.open{position:absolute;left:0;right:0;top:75px;display:flex;flex-direction:column;align-items:flex-start;gap:0;padding:14px 7vw 20px;background:#fff;border-bottom:1px solid var(--line);box-shadow:0 14px 28px rgba(48,34,122,.08);z-index:10}.site-header nav.open a{width:100%;padding:12px 0}.site-header nav.open a:hover{color:inherit}}
+.team-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:3.6vw;max-width:none;margin-top:82px}
+.team-grid a{display:grid;grid-template-columns:1fr;grid-template-rows:auto auto;align-items:stretch;overflow:hidden;border-radius:38px;background:#f3f4f1;position:relative}
+.team-grid a:nth-child(2){background:#eeecfb}
+.team-grid img{width:100%;height:auto;aspect-ratio:1.32;object-fit:cover;grid-row:auto;display:block;filter:none;transform-origin:center}
+.team-card-copy{min-height:205px;padding:35px 38px 34px;display:flex;flex-direction:column;position:relative}
+.team-card-copy strong{font-size:29px;line-height:1.1;color:var(--ink);align-self:flex-start}
+.team-card-copy span{font-size:19px;line-height:1.4;color:var(--muted);margin-top:22px;align-self:flex-start}
+.team-arrow{position:absolute;right:38px;bottom:34px;width:68px;height:68px;border-radius:50%;background:#fff;color:var(--purple);display:grid;place-items:center;font-size:31px;font-style:normal;font-weight:400}
+@media(max-width:800px){.team-grid{grid-template-columns:1fr;gap:28px;margin-top:55px}.team-grid a{border-radius:28px}.team-card-copy{min-height:155px;padding:25px 26px 26px}.team-card-copy strong{font-size:22px}.team-card-copy span{font-size:15px;margin-top:14px}.team-arrow{right:25px;bottom:24px;width:54px;height:54px;font-size:25px}}
